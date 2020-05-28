@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @description：直接模式
  * @modified By：修改人
  * @version: $
+ *
  */
 @Controller
 public class DirectProducer {
