@@ -22,6 +22,7 @@ public class DirectProducer {
     @ResponseBody
     public String testSend(){
         String name = "123";
+        String name2 = "321";
         rabbitTemplate.convertAndSend("test","测试一条消息");
         return "ok";
     }
